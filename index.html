@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <!-- Fonts & Icons -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="index.css">
+        <title>Contact Us</title>
+    </head>
+
+    <body class="contact-page">
+
+        <main id="main-content">
+            <!-- Form section -->
+            <section class="contact-form-section" aria-labelledby="contact-heading">
+
+            <header>
+                <form aria-labelledby="contact-heading">
+                    <h2 id="contact-heading" class="contact-form-heading">Reach <span>Out</span></h2>
+                    <p class="contact-form-intro">Curious about something? Complete these fields and "get in touch", as you humans say. 🤙 </p>
+           </header>
+                     <form>
+                        <div class="form-group">
+                       <label for="name"> Name</label> 
+                        <input class="contact-input" type="text"id="name" name="name" required placeholder="Full name"/>
+                        </div>
+                     <div class="form-group">
+                      <label for="email">Email</label>   
+                    <input class="contact-input" type="email" id="email" name="email" required  placeholder="Email address"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                    <textarea class="contact-textarea" id="message" name="message" rows="4" cols="50" required placeholder="Your message..."></textarea>
+                    </div>
+                    <button class="contact-submit-button" type="submit"> Done 🎉</button>
+                   <p class="sr-only" aria-live="polite" id="form-status"></p> 
+                </form>
+
+                <img class="contact-image" src="images/connect.png" alt="Contact Us"aria-hidden="true"/>
+            </section>
+        </main>
+    </body>
+</html>
