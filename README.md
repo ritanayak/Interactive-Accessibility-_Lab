@@ -1,3 +1,6 @@
+                             Reflection Question Responses
+                             --------------------------------
+
 1. What accessibility enhancements were the most challenging to implement, and why?
 
 The most challenging part was understanding when to use ARIA versus semantic HTML. Overusing ARIA can cause accessibility issues, so learning to rely on native HTML elements first required careful consideration.
